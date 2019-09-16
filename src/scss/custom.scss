@@ -1,0 +1,86 @@
+@import "mixins.scss";
+@import "variables.scss";
+*,
+*::after,
+*::before {
+    @include border-box;
+    margin: 0;
+    padding: 0;
+}
+
+// body {
+//     max-width: 1200px;
+// }
+li {
+    display: inline-block;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: $screen-size;
+}
+
+%clearfix {
+    *zoom: 1;
+    &::after,
+    &::before {
+        content: " ";
+        display: table;
+    }
+    &::after {
+        clear: both;
+    }
+}
+
+.__row,
+.wrapper {
+    @extend %clearfix;
+}
+
+[class*='__col-'] {
+    float: left;
+    min-height: 1px;
+    padding: 1em;
+    width: $screen-size;
+}
+
+@media #{$breakpoint-desktop} {
+    .wrapper {
+        max-width: $grid-max-width;
+        width: $screen-size - 15%;
+    }
+    @for $i from 1 through $grid-cols {
+        .__col-desk-#{$i} {
+            width: $screen-size / $grid-cols * $i;
+        }
+    }
+    @for $i from 1 through $grid-cols {
+        .__col-offset-#{$i} {
+            padding-left: $screen-size / $grid-cols * $i;
+        }
+    }
+}
+
+@media #{$breakpoint-mobile} {
+    .wrapper {
+        max-width: $grid-max-width;
+        width: $screen-size - 5%;
+    }
+    @for $i from 1 through $grid-cols {
+        .__col-mobile-#{$i} {
+            width: $screen-size / $grid-cols * $i;
+        }
+    }
+}
+
+@media #{$breakpoint-tablet} {
+    .wrapper {
+        max-width: $grid-max-width;
+        width: $screen-size - 5%;
+    }
+    @for $i from 1 through $grid-cols {
+        .__col-tab-#{$i} {
+            width: $screen-size / $grid-cols * $i;
+        }
+    }
+}

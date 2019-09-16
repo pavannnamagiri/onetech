@@ -1,0 +1,60 @@
+var HotBestSellers = [{
+        "prod_type": "HeadPhones",
+        "prod_name": "Xiaomi Redmi Note4",
+        "prod_old_price": "$300",
+        "prod_new_price": "$225",
+        "prod_rating": 5,
+        "prod_discount": "-25%",
+        "prod_fav": "true"
+
+    },
+    {
+        "prod_type": "HeadPhones",
+        "prod_name": "Xiaomi Redmi Note4",
+        "prod_old_price": "$300",
+        "prod_new_price": "$225",
+        "prod_rating": 5,
+        "prod_discount": "",
+        "prod_fav": "fale"
+
+    },
+    {
+        "prod_type": "HeadPhones",
+        "prod_name": "Xiaomi Redmi Note4",
+        "prod_old_price": "$300",
+        "prod_new_price": "$225",
+        "prod_rating": 5,
+        "prod_discount": "-25%",
+        "prod_fav": "true"
+
+    },
+    {
+        "prod_type": "HeadPhones",
+        "prod_name": "Xiaomi Redmi Note4",
+        "prod_old_price": "$300",
+        "prod_new_price": "$225",
+        "prod_rating": 5,
+        "prod_discount": "",
+        "prod_fav": "fale"
+
+    }, {
+        "prod_type": "HeadPhones",
+        "prod_name": "Xiaomi Redmi Note4",
+        "prod_old_price": "$300",
+        "prod_new_price": "$225",
+        "prod_rating": 5,
+        "prod_discount": "-25%",
+        "prod_fav": "true"
+
+    },
+    {
+        "prod_type": "HeadPhones",
+        "prod_name": "Xiaomi Redmi Note4",
+        "prod_old_price": "$300",
+        "prod_new_price": "$225",
+        "prod_rating": 5,
+        "prod_discount": "",
+        "prod_fav": "fale"
+
+    },
+];

@@ -1,0 +1,40 @@
+$color-blue-btn:#1E8EE1;
+$color-black-text:#000000;
+$color-red-text:#DE5053;
+$color-grey-text:#999A9B;
+$color-red-heart:#FC0D1C;
+$color-white:#FFFFFF;
+$color-summer-sky:#1E8EE1;
+$color-Gainsboro:#DADADA;
+$color-darkgrey:#A9A9A9;
+$color-grey:#777777;
+$color-whitesmoke:#F3F3F3;
+$color-WildBlueYonder:#7599b2;
+$color-dimgrey:#727272;
+$color-gainsboro:#E8E8E8;
+$color-lemon:#F5E211;
+$color-nero:#222222;
+$color-dodgerblue:#0E8CE4;
+$color-red:#FF0000;
+$color-silver:#BBBBBB;
+$color-cinnabar:#DF3b3b;
+$color-pattensblue:#EFF6FA;
+$color-yellow:#FFFF00;
+$breakpoint-tablet: 768px;
+$breakpoint-phone: 768px;
+$font-stack: rubik,
+sans-serif;
+$primary-color: #000;
+$header-grey: #EEEEEE;
+
+/* Break points */
+
+$breakpoint-desktop: "only screen and (min-width: 992px)";
+$breakpoint-mobile: "only screen and (max-width: 767px)";
+$breakpoint-tablet: "only screen and (min-width:768px) and (max-width: 991px)";
+
+/* Grids */
+
+$grid-cols: 12;
+$grid-max-width: 110em;
+$screen-size: 100%;
